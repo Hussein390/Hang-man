@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Write</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="game-info">
+      <div class="game-name">WriteName</div>
+      <div class="category">Word From: <span class="spans"></span></div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="hangman">
+        <div class="draw">
+          <div class="the-h">H</div>
+          <div class="the-u">U</div>
+          <div class="the-s">S</div>
+          <div class="the-s2">S</div>
+          <div class="the-e">E</div>
+          <div class="the-i">I</div>
+          <div class="the-n">N</div>
+        </div>
+      </div>
+      <!-- <div class="hang">
+<div class="draw2">
+  <div class="the-H">A</div>
+  <div class="the-U">L</div>
+  <div class="the-S">I</div>
+  <div class="the-S2">V</div>
+  <div class="the-E">E</div>
+  <div class="the-U">I</div>
+  <div class="the-N">N</div>
+</div>
+      </div> -->
+      
+      <div class="letters"></div>
+    </div>
+    <hr>
+    <div class="letters-guess"></div>
+  </div>
+
+  <audio src="wrong.mp3" class="fail"></audio>
+  <audio src="correct.mp3" class="correct"></audio>
+  <script src="main.js"></script>
+</body>
+
+</html>
